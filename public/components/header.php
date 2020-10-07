@@ -1,7 +1,7 @@
 ﻿<style>
     header {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100vw;
@@ -9,6 +9,7 @@
         background-color: rgb(4, 57, 94);
         padding: 0 10%;
         color: rgb(255, 255, 255);
+        z-index: 888;
     }
     a:hover {
         color: rgba(134, 211, 65, 1);
@@ -61,6 +62,21 @@
         height: 20px;
         margin-right: 5px;
     }
+    .socialIcon {
+        padding: 3px;
+        vertical-align: middle;
+    }
+    .socialIcon:hover {
+        transform: scale(1.1);
+    }
+    .marketIcon {
+        vertical-align: middle;
+        padding: 6px;
+    }
+    .marketIcon:hover {
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+    }
 </style>
 <header class="flex centerAI betweenJC">
     <div class="headLogo">
@@ -78,9 +94,26 @@
             <div class="firstMenu">
                 <menu class="firstMenu">
                     <a href="#" class="firstMenuItem">О нас</a>
+                    <a href="#" class="firstMenuItem">Оплата</a>
                     <a href="#" class="firstMenuItem">Доставка</a>
-                    <a href="#" class="firstMenuItem">Мнения</a>
                     <a href="#" class="firstMenuItem">Сайты-партнеры</a>
+                    <div class="social inline">
+                        <a href="https://www.instagram.com/">
+                            <img src="public/img/icons/inst.png" alt="social icon" class="socialIcon">
+                        </a>
+                        <a href="https://www.facebook.com/">
+                            <img src="public/img/icons/fb.png" alt="social icon" class="socialIcon">
+                        </a>
+                        <a href="https://www.whatsapp.com/">
+                            <img src="public/img/icons/wp.png" alt="social icon" class="socialIcon">
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <img src="public/img/icons/tm.png" alt="social icon" class="socialIcon">
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <img src="public/img/icons/tr.png" alt="social icon" class="socialIcon">
+                        </a>
+                    </div>
                 </menu>
             </div>
         </div>
@@ -89,13 +122,14 @@
             <div class="secondMenu">
                 <menu class="second">
                     <a href="#" class="secondMenuItem">Интернет-магазин</a>
-                    <a href="#" class="secondMenuItem">Авторам</a>
-                    <a href="#" class="secondMenuItem">Образовательным организациям</a>
-                    <a href="#" class="secondMenuItem">Издателям</a>
+                    <a href="#" class="secondMenuItem">Цифровые учебники</a>
+                    <a href="#" class="secondMenuItem">Вебинары</a>
+                    <a href="#" class="secondMenuItem">Новости</a>
                 </menu>
             </div>
             <div class="loginAndCart">
-                loginAndCart
+                <img src="public/img/icons/user.png" alt="icon" class="marketIcon">
+                <img src="public/img/icons/cart.png" alt="icon" class="marketIcon">
             </div>
         </div>
     </div>

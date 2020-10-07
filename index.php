@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>Mektep</title>
 
         <meta charset="UTF-8">
         <meta name="theme-color" content="rgb(0, 0, 0)">
@@ -23,6 +23,7 @@
           require_once "public/components/header.php";
           require_once "public/components/slider.php";
           require_once "public/components/grids.php";
+          require_once "public/components/newBook.php";
           require_once "public/components/footer.php";
         ?>
 

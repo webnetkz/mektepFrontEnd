@@ -88,11 +88,13 @@ a {
 }
 /* Background */
 .bgZoom {
-  background-size: 160%;
+  background-size: 220%;
   background-repeat: no-repeat;
   background-position: center center;
   transition-duration: 600ms;
 }
 .bgZoom:hover {
-  background-size: 250%;
+  background-size: 300%;
 }
+/* Vertival Align */
+.VAmiddle {vertical-align: middle}
