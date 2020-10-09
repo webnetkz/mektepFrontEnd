@@ -3,7 +3,7 @@
         position: absolute;
         width: 100%;
         height: 80vh;
-        top: calc(180vh + 20px);
+        top: calc(150vh + 20px);
         left: 0;
         padding: 30px 10%;
         background-color: rgb(237, 237, 237);

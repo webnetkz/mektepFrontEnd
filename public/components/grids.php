@@ -3,7 +3,7 @@
         position: absolute;
         width: 100%;
         height: 100vh;
-        top: 80vh;
+        top: 50vh;
         left: 0;
         padding: 30px 10%;
         background-color: inherit;
@@ -75,4 +75,16 @@
         </div>
     </div>
 </div>
+<script>
+    let grids = document.querySelector('.grids');
+    grids.style.visibility = 'hidden';
+    window.addEventListener('scroll', function() {
+        if(pageYOffset >= (grids.getBoundingClientRect().top)) {
+            grids.style.visibility = 'visible';
+            let opiq = document.querySelector('.bg0').setAttribute('style', 'animation: showFromZero 0.5s linear;');
+            let internetMarket = document.querySelector('.bg3').setAttribute('style', 'animation-delay: 0.2s; animation: showFromZero 0.5s linear;');
+
+        }
+    });
+</script>
 
