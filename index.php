@@ -24,6 +24,9 @@
           require_once "public/components/slider.php";
           require_once "public/components/grids.php";
           require_once "public/components/newBook.php";
+		require_once "public/components/newBooks.php";
+		require_once "public/components/bestseller.php";
+		require_once "public/components/news.php";
           require_once "public/components/footer.php";
         ?>
 

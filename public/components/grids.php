@@ -3,7 +3,7 @@
         position: absolute;
         width: 100%;
         height: 100vh;
-        top: 50vh;
+        top: calc(100vh - 100px);
         left: 0;
         padding: 30px 10%;
         background-color: inherit;
@@ -46,7 +46,7 @@
         background-size: 100%;
     }
     .bg0{
-        background-image: url('public/img/photo/lib.jpg');
+        background: linear-gradient(335deg, rgba(2,0,36,1) 0%, rgba(18,18,129,1) 0%, rgba(0,212,255,1) 100%);
     }
 </style>
 
@@ -76,7 +76,7 @@
     </div>
 </div>
 <script>
-    let grids = document.querySelector('.grids');
+    /*let grids = document.querySelector('.grids');
     grids.style.visibility = 'hidden';
     window.addEventListener('scroll', function() {
         if(pageYOffset >= (grids.getBoundingClientRect().top)) {
@@ -85,6 +85,6 @@
             let internetMarket = document.querySelector('.bg3').setAttribute('style', 'animation-delay: 0.2s; animation: showFromZero 0.5s linear;');
 
         }
-    });
+    });*/
 </script>
 

@@ -2,11 +2,13 @@
     .newBook {
         position: absolute;
         width: 100%;
-        height: 80vh;
-        top: calc(150vh + 20px);
+        height: 70vh;
+        top: calc(190vh + 20px);
         left: 0;
         padding: 30px 10%;
         background-color: rgb(237, 237, 237);
+		z-index: 3;
+		transition-duration: 500ms;
     }
     .newMidBook {
 
@@ -91,9 +93,30 @@
         color: rgb(13, 125, 190);
         border-bottom: 1px dashed rgb(13, 125, 190);
     }
-    .newBookAll {
-        border: 1px solid black;
-    }
+	.newBookAll > div {
+    	padding: 10px;
+	}
+    .newBookAll > div:hover {
+    	box-shadow: 0 0 6px rgb(100, 100, 100);
+	}
+	.activeBook {
+    	background: white;
+	}
+	.activeBook:after {
+		content: " ";
+		background: white;
+		width: 20px;
+		height: 20px;
+		color: white;
+		position: relative;
+		left: -69%;
+		transform: rotate(45deg);
+		z-index: -1;
+	}
+	.activeBook:hover:after {
+		content: " ";
+		opacity: 0;
+	}
 </style>
 <div class="newBook flex row">
     <div class="newMidBook W25">
@@ -118,5 +141,22 @@
         <p class="newBookOpis">В учебнике на современном уровне изложены фундаментальные вопросы школьной программы, представлены основные технические применения законов физики</p>
         <a href="#" class="newBookDesc">Полное описание</a>
     </div>
-    <div class="newBookAll W25">2</div>
+    <div class="newBookAll flex col W25 aroundJC">
+		<div class="flex row centerAI activeBook">
+			<img src="public/img/books/fizika11.jpg" class="W25" style="margin-right: 10px;">
+			<p>Физика 11 класс</p>
+		</div>
+				<div class="flex row centerAI">
+			<img src="public/img/books/fizika11.jpg" class="W25" style="margin-right: 10px;">
+			<p>Физика 11 класс</p>
+		</div>
+				<div class="flex row centerAI">
+			<img src="public/img/books/fizika11.jpg" class="W25" style="margin-right: 10px;">
+			<p>Физика 11 класс</p>
+		</div>
+				<div class="flex row centerAI">
+			<img src="public/img/books/fizika11.jpg" class="W25" style="margin-right: 10px;">
+			<p>Физика 11 класс</p>
+		</div>
+	</div>
 </div>

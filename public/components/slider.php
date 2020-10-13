@@ -2,11 +2,10 @@
     .slider {
         position: absolute;
         width: 100vw;
-        height: 50vh;
-        top: 100px;
+        height: 100%;
         left: 0;
         background-image: url('public/img/photo/sliderOne.jpg');
-        background-size: cover;
+        background-size: contain;
         background-position: 0 35%;
         background-repeat: no-repeat;
         animation: slider 10s infinite;

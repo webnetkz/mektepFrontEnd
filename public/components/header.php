@@ -35,14 +35,16 @@
         margin: 0 20px;
     }
     .firstMenuItem {
-        margin: 0 20px;
-        font-size: 0.9em;
+        margin: 0 10px;
+        font-size: 0.8rem;
         color: rgb(63, 205, 233);
     }
+
     .searchInp {
         outline: none;
         border: none;
-        font-size: 1.2em;
+        font-size: 1rem;
+		max-width: 60%;
         background-color: rgb(4, 57, 94);
         color: rgb(255, 255, 255);
         padding-left: 5px;
@@ -64,6 +66,7 @@
     }
     .socialIcon {
         padding: 3px;
+		height: 2rem;
         vertical-align: middle;
     }
     .socialIcon:hover {
@@ -77,13 +80,16 @@
         border-radius: 4px;
         background-color: rgb(255, 255, 255);
     }
+	 .phone {
+	 	font-size: 0.9rem;
+	 }
 </style>
 <header class="flex centerAI betweenJC">
     <div class="headLogo">
         <img src="public/img/logoRu.webp" alt="mektep" class="logo">
     </div>
     <div class="headMenu flex col">
-        <div class="headFirstMenu flex centerAI betweenJC">
+        <div class="headFirstMenu flex centerAI beetwenJC">
             <div class="search flex">
                 <img src="public/img/icons/searchGreen.png" alt="search" class="searchIcon">
                 <input type="text" class="searchInp" placeholder="Поиск по сайту">
@@ -97,7 +103,7 @@
                     <a href="#" class="firstMenuItem">Оплата</a>
                     <a href="#" class="firstMenuItem">Доставка</a>
                     <a href="#" class="firstMenuItem">Сайты-партнеры</a>
-                    <div class="social inline">
+                    <div class="social inline" style="position: absolute; right: 3rem;">
                         <a href="https://www.instagram.com/">
                             <img src="public/img/icons/inst.png" alt="social icon" class="socialIcon">
                         </a>
