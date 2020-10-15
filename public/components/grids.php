@@ -30,11 +30,11 @@
     }
     .bg1{
         background-image: url('public/img/photo/freeBooks.jpg');
-        background-size: 110%;
+        background-size: 120%;
     }
     .bg2{
         background-image: url('public/img/photo/onlineLekcii.jpg');
-        background-size: 130%;
+        background-size: 140%;
     }
     .bg3{
         background-image: url('public/img/photo/sliderThree.jpg');
