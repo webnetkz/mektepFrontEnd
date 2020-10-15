@@ -29,13 +29,16 @@
         text-shadow: 0 0 5px rgb(255, 255, 255);
     }
     .bg1{
-        background-image: url('public/img/photo/sliderOne.jpg');
+        background-image: url('public/img/photo/freeBooks.jpg');
+        background-size: 110%;
     }
     .bg2{
         background-image: url('public/img/photo/onlineLekcii.jpg');
+        background-size: 130%;
     }
     .bg3{
         background-image: url('public/img/photo/sliderThree.jpg');
+        background-size: 100%;
     }
     .bg4{
         background-image: url('public/img/photo/news.jpg');
@@ -75,16 +78,4 @@
         </div>
     </div>
 </div>
-<script>
-    /*let grids = document.querySelector('.grids');
-    grids.style.visibility = 'hidden';
-    window.addEventListener('scroll', function() {
-        if(pageYOffset >= (grids.getBoundingClientRect().top)) {
-            grids.style.visibility = 'visible';
-            let opiq = document.querySelector('.bg0').setAttribute('style', 'animation: showFromZero 0.5s linear;');
-            let internetMarket = document.querySelector('.bg3').setAttribute('style', 'animation-delay: 0.2s; animation: showFromZero 0.5s linear;');
-
-        }
-    });*/
-</script>
 

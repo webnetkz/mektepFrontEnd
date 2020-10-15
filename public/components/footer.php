@@ -38,7 +38,7 @@
 </style>
 <footer class="flex col">
 	<div class="flex row">
-		<img src="public/img/logoRu.webp" alt="mektep" style="height: 250px; margin-right: 100px;">
+		<img src="public/img/logoW.png" alt="mektep" style="height: 250px; margin-right: 100px;">
 		<div class="flex col">
 			<h2>Авторам</h2>
 					  <a href="#">Издание учебников и учебных пособий</a>

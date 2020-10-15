@@ -86,7 +86,7 @@
 </style>
 <header class="flex centerAI betweenJC">
     <div class="headLogo">
-        <img src="public/img/logoRu.webp" alt="mektep" class="logo">
+        <img src="public/img/logoW.png" alt="mektep" class="logo">
     </div>
     <div class="headMenu flex col">
         <div class="headFirstMenu flex centerAI beetwenJC">
