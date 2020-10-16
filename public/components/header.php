@@ -82,6 +82,7 @@
     }
 	 .phone {
 	 	font-size: 0.9rem;
+        margin-right: 30px;
 	 }
 </style>
 <header class="flex centerAI betweenJC">
@@ -102,22 +103,18 @@
                     <a href="#" class="firstMenuItem">О нас</a>
                     <a href="#" class="firstMenuItem">Оплата</a>
                     <a href="#" class="firstMenuItem">Доставка</a>
-                    <a href="#" class="firstMenuItem">Сайты-партнеры</a>
                     <div class="social inline" style="position: absolute; right: 3rem;">
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/mektep.baspasy/">
                             <img src="public/img/icons/inst.png" alt="social icon" class="socialIcon">
                         </a>
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/mektep.baspasy/">
                             <img src="public/img/icons/fb.png" alt="social icon" class="socialIcon">
                         </a>
-                        <a href="https://www.whatsapp.com/">
+                        <a href="https://wa.me/+77013097385">
                             <img src="public/img/icons/wp.png" alt="social icon" class="socialIcon">
                         </a>
                         <a href="https://www.instagram.com/">
                             <img src="public/img/icons/tm.png" alt="social icon" class="socialIcon">
-                        </a>
-                        <a href="https://www.instagram.com/">
-                            <img src="public/img/icons/tr.png" alt="social icon" class="socialIcon">
                         </a>
                     </div>
                 </menu>

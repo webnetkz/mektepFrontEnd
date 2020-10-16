@@ -24,21 +24,21 @@
     }
     .bgZoom:hover {
         filter: brightness(0.4);
+        cursor: pointer;
     }
     .bgZoom:hover .textForGrid {
         text-shadow: 0 0 5px rgb(255, 255, 255);
     }
     .bg1{
-        background-image: url('public/img/photo/freeBooks.jpg');
-        background-size: 120%;
+        background-image: url('public/img/photo/sliderThree.jpg');
+        background-size: 145%;
     }
     .bg2{
         background-image: url('public/img/photo/onlineLekcii.jpg');
         background-size: 140%;
     }
     .bg3{
-        background-image: url('public/img/photo/sliderThree.jpg');
-        background-size: 100%;
+        background: linear-gradient(90deg, rgba(158,30,39,1) 0%, rgba(255,42,42,1) 50%, rgba(213,8,2,1) 100%);
     }
     .bg4{
         background-image: url('public/img/photo/news.jpg');
@@ -55,16 +55,16 @@
 
 <div class="grids flex row TAcenter">
     <div class="W50  flex col">
-        <div class="H66 bg0 bgZoom">
-            <p class="textForGrid" style="font-size: 5em;">Opic</p>
+        <div class="H66 bg0 bgZoom" onclick="location.href='https:\/\/mektep.kz'">
+            <p class="textForGrid" style="font-size: 5em;">Mektep Portal</p>
         </div>
         <div class="H33 bg4 bgZoom">
             <p class="textForGrid" style="font-size: 2.8em;">Новости</p>
         </div>
     </div>
     <div class="W50 betweenJC flex col">
-        <div class="H100 bg3 bgZoom">
-            <p class="textForGrid" style="font-size: 2.8em;">Интернет магазин</p>
+        <div class="H100 bg3 bgZoom" onclick="location.href='https:\/\/opiq.kz'">
+            <p class="textForGrid" style="font-size: 2.8em;">Opiq</p>
         </div>
         <div class="H100 flex row">
             <div class="W50 bg2 bgZoom">
