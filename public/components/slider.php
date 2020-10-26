@@ -2,7 +2,7 @@
     .slider {
         position: absolute;
         width: 100vw;
-        height: 100vh;
+        height: 105vh;
         top: 100px;
         left: 0;
         background-image: url('public/img/photo/sliderOne.jpg');

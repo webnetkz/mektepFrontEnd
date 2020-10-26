@@ -1,11 +1,11 @@
 <style>
 	footer {
 		background: url('public/img/footer-bg.png');
-		height: 45vh;
+		height: 5vh;
 		position: absolute;
 		border-top: 2px solid rgb(242, 242, 242);
         width: 100%;
-        top: 500vh;
+        top: 435vh;
         left: 0;
         padding: 30px 10%;
 		z-index: 3;
@@ -37,7 +37,7 @@
 	}
 </style>
 <footer class="flex col">
-	<div class="flex row">
+	<!-- <div class="flex row">
 		<img src="public/img/logoW.png" alt="mektep" style="height: 250px; margin-right: 100px;">
 		<div class="flex col">
 			<h2>Авторам</h2>
@@ -65,7 +65,7 @@
 			<a href="#">Совместные серии</a>
 					  
 		</div>
-	</div>
+	</div> -->
 	<div class="copy">
 		©2020. Издательство «Mektep»
 		<a href="tel:+77273944234" class="phoneLink" style="margin-left: 50px;">+7 (727) 394 42 34</a>

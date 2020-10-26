@@ -3,7 +3,7 @@
         position: absolute;
         width: 100%;
         height: 100vh;
-        top: calc(100vh - 100px);
+        top: calc(105vh - 100px);
         left: 0;
         padding: 30px 10%;
         background-color: inherit;
@@ -41,7 +41,7 @@
         background: linear-gradient(90deg, rgba(158,30,39,1) 0%, rgba(255,42,42,1) 50%, rgba(213,8,2,1) 100%);
     }
     .bg4{
-        background-image: url('public/img/photo/news.jpg');
+        background-image: url('public/img/photo/help.jpg');
         background-size: 100%;
     }
     .bg5{
@@ -59,7 +59,7 @@
             <p class="textForGrid" style="font-size: 5em;">Mektep Portal</p>
         </div>
         <div class="H33 bg4 bgZoom">
-            <p class="textForGrid" style="font-size: 2.8em;">Новости</p>
+            <p class="textForGrid" style="font-size: 2.8em;">Помощь учителю</p>
         </div>
     </div>
     <div class="W50 betweenJC flex col">
@@ -68,13 +68,13 @@
         </div>
         <div class="H100 flex row">
             <div class="W50 bg2 bgZoom">
-                <p class="textForGrid">Онлайн лекции</p>
+                <p class="textForGrid">Интернет-магазин</p>
             </div>
             <div class="W50 ml3 bg1 bgZoom">
                 <p class="textForGrid">Учебники в свободном доступе</p></div>
         </div>
         <div class="H100 bg5 bgZoom">
-            <p class="textForGrid" style="font-size: 2.8em;">Mektep</p>
+            <p class="textForGrid" style="font-size: 2.8em;">Презентация учебников</p>
         </div>
     </div>
 </div>

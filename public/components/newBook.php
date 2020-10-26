@@ -2,7 +2,7 @@
     .newBook {
         position: absolute;
         width: 100%;
-        height: 70vh;
+        height: 75vh;
         top: calc(190vh + 20px);
         left: 0;
         padding: 30px 10%;
@@ -125,12 +125,12 @@
     <div class="newBookInfo W50">
         <h4>Новинка</h4>
         <h2>Физика 11 класс</h2>
-        <p class="addTab">
+        <!-- <p class="addTab">
             <img src="public/img/icons/star.png" alt="start" class="VAmiddle" style="width: 1em; margin-right: 10px;">    
             Добавить в избранное
-        </p>
+        </p> -->
         <p>Автор: Ельникова Галина Алексеевна, Лаамарти Юлия Александровна</p>
-        <p>Артикул: 745707.01.01</p>
+        <!-- <p>Артикул: 745707.01.01</p> -->
             <br>
             <br>
             <br>
