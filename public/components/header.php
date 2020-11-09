@@ -64,9 +64,48 @@
         height: 20px;
         margin-right: 5px;
     }
+    .showSocial {
+        position: fixed;
+        left: 0;
+        top: 500px;
+        z-index: 999999999999;
+        padding: 15px 5px;
+        background: rgb(4, 57, 94);
+        max-width: 2rem;
+        height: 7rem;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .showSocial > p {
+        transform: rotate(90deg);
+        color: white;
+    }
+    .showSocial:hover {
+        padding-top: 15px;
+        cursor: pointer;
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 3rem;
+    }
+    .showSocial:hover p {
+        padding-top: 25px;
+    }
+    .social {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        left: -5rem;
+        top: 500px;
+        z-index: 999999999999;
+        padding: 5px 5px;
+        background: rgb(4, 57, 94);
+        max-width: 3.5rem;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
     .socialIcon {
         padding: 3px;
-		height: 2rem;
+		height: 3rem;
         vertical-align: middle;
     }
     .socialIcon:hover {
@@ -103,20 +142,6 @@
                     <a href="#" class="firstMenuItem">О нас</a>
                     <a href="#" class="firstMenuItem">Оплата</a>
                     <a href="#" class="firstMenuItem">Доставка</a>
-                    <div class="social inline" style="position: absolute; right: 3rem;">
-                        <a href="https://www.instagram.com/mektep.baspasy/">
-                            <img src="public/img/icons/inst.png" alt="social icon" class="socialIcon">
-                        </a>
-                        <a href="https://www.facebook.com/mektep.baspasy/">
-                            <img src="public/img/icons/fb.png" alt="social icon" class="socialIcon">
-                        </a>
-                        <a href="https://wa.me/+77013097385">
-                            <img src="public/img/icons/wp.png" alt="social icon" class="socialIcon">
-                        </a>
-                        <a href="https://www.instagram.com/">
-                            <img src="public/img/icons/tm.png" alt="social icon" class="socialIcon">
-                        </a>
-                    </div>
                 </menu>
             </div>
         </div>
@@ -137,3 +162,27 @@
         </div>
     </div>
 </header>
+<div class="showSocial" onclick="showSocial(this);">
+     <p>Связаться</p>
+</div>
+<div class="social inline" style="position: absolute; right: 3rem;">
+    <a href="https://www.instagram.com/mektep.baspasy/">
+        <img src="public/img/icons/inst.png" alt="social icon" class="socialIcon">
+    </a>
+    <a href="https://www.facebook.com/mektep.baspasy/">
+        <img src="public/img/icons/fb.png" alt="social icon" class="socialIcon">
+    </a>
+    <a href="https://wa.me/+77013097385">
+        <img src="public/img/icons/wp.png" alt="social icon" class="socialIcon">
+    </a>
+    <a href="https://www.instagram.com/">
+        <img src="public/img/icons/tm.png" alt="social icon" class="socialIcon">
+    </a>
+</div>
+<script>
+    function showSocial(elem) {
+        document.querySelector('.social').style.left = '0';
+        elem.style.left = '-3rem';
+        elem.style.top = '500px';
+    }
+</script>

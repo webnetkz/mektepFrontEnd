@@ -51,8 +51,28 @@
     .bg0{
         background: linear-gradient(335deg, rgba(2,0,36,1) 0%, rgba(18,18,129,1) 0%, rgba(0,212,255,1) 100%);
     }
+    @keyframes showGrid {
+        50% {
+            transform: rotateX(180deg); 
+        }
+    }
+    .lang {
+        position: fixed;
+        right: 30px;
+        top: 50px;
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        z-index: 9999999999999;
+        color: white;
+    }
+    .lang:hover {
+        color: rgb(4, 57, 94);
+        background: white;
+        cursor: pointer;
+    }
 </style>
-
+<div class="lang">KZ</div>
 <div class="grids flex row TAcenter">
     <div class="W50  flex col">
         <div class="H66 bg0 bgZoom" onclick="location.href='https:\/\/mektep.kz'">
@@ -79,3 +99,17 @@
     </div>
 </div>
 
+<script>
+    
+    let hieghtGrid = document.documentElement.clientWidth// + (document.documentElement.clientWidth / 2);
+    window.addEventListener('scroll', function() {
+        if(pageYOffset >= 700) {
+            document.querySelector('.bg1').setAttribute('style', 'animation: showGrid 0.5s linear; animation-delay: 0.5s;');
+            document.querySelector('.bg2').setAttribute('style', 'animation: showGrid 0.5s linear; animation-delay: 0.6s;');
+            document.querySelector('.bg3').setAttribute('style', 'animation: showGrid 0.5s linear; animation-delay: 0.2s;');
+            document.querySelector('.bg4').setAttribute('style', 'animation: showGrid 0.5s linear; animation-delay: 0.7s;');
+            document.querySelector('.bg5').setAttribute('style', 'animation: showGrid 0.5s linear; animation-delay: 0.9s;');
+            document.querySelector('.bg0').setAttribute('style', 'animation: showGrid 0.5s linear; animation-delay: 0s;');
+        }
+    });
+</script>
