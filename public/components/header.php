@@ -66,15 +66,15 @@
     }
     .showSocial {
         position: fixed;
-        left: 0;
-        top: 500px;
+        right: 0;
+        top: 250px;
         z-index: 999999999999;
         padding: 15px 5px;
         background: rgb(4, 57, 94);
         max-width: 2rem;
         height: 7rem;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
     .showSocial > p {
         transform: rotate(90deg);
@@ -91,17 +91,17 @@
         padding-top: 25px;
     }
     .social {
-        position: fixed;
+        position: fixed!important;
         display: flex;
         flex-direction: column;
-        left: -5rem;
-        top: 500px;
-        z-index: 999999999999;
+        top: -250px;
+        right: 0;
+        z-index: 999999999999!important;
         padding: 5px 5px;
         background: rgb(4, 57, 94);
         max-width: 3.5rem;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
     .socialIcon {
         padding: 3px;
@@ -165,7 +165,10 @@
 <div class="showSocial" onclick="showSocial(this);">
      <p>Связаться</p>
 </div>
-<div class="social inline" style="position: absolute; right: 3rem;">
+<div class="social inline">
+    <i onclick="closeSocial()">
+        <img src="public/img/icons/cancel.png" alt="social icon" class="socialIcon">
+    </i>
     <a href="https://www.instagram.com/mektep.baspasy/">
         <img src="public/img/icons/inst.png" alt="social icon" class="socialIcon">
     </a>
@@ -181,8 +184,13 @@
 </div>
 <script>
     function showSocial(elem) {
-        document.querySelector('.social').style.left = '0';
-        elem.style.left = '-3rem';
-        elem.style.top = '500px';
+        document.querySelector('.social').style.top = '250px';
+        elem.style.right = '-3rem';
+        elem.style.top = '250px';
+    }
+    function closeSocial(elem) {
+        document.querySelector('.social').style.top = '-250px';
+        document.querySelector('.showSocial').style.right = '0';
+        document.querySelector('.showSocial').style.top = '250px';
     }
 </script>
