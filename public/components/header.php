@@ -119,13 +119,31 @@
         border-radius: 4px;
         background-color: rgb(255, 255, 255);
     }
-	 .phone {
+	.phone {
 	 	font-size: 0.9rem;
         margin-right: 30px;
-	 }
+    }
+    .headLogo:hover {
+        cursor: pointer;
+    }
+    .lang {
+        position: fixed;
+        right: 30px;
+        top: 50px;
+        padding: 5px;
+        border: 1px solid white;
+        border-radius: 5px;
+        z-index: 9999999999999;
+        color: white;
+    }
+    .lang:hover {
+        color: rgb(4, 57, 94);
+        background: white;
+        cursor: pointer;
+    }
 </style>
 <header class="flex centerAI betweenJC">
-    <div class="headLogo">
+    <div class="headLogo" onclick="location.href = 'index.php'">
         <img src="public/img/logoW.png" alt="mektep" class="logo">
     </div>
     <div class="headMenu flex col">
@@ -182,6 +200,7 @@
         <img src="public/img/icons/tm.png" alt="social icon" class="socialIcon">
     </a>
 </div>
+<div class="lang">KZ</div>
 <script>
     function showSocial(elem) {
         document.querySelector('.social').style.top = '250px';

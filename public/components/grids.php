@@ -56,23 +56,7 @@
             transform: rotateX(180deg); 
         }
     }
-    .lang {
-        position: fixed;
-        right: 30px;
-        top: 50px;
-        padding: 5px;
-        border: 1px solid white;
-        border-radius: 5px;
-        z-index: 9999999999999;
-        color: white;
-    }
-    .lang:hover {
-        color: rgb(4, 57, 94);
-        background: white;
-        cursor: pointer;
-    }
 </style>
-<div class="lang">KZ</div>
 <div class="grids flex row TAcenter">
     <div class="W50  flex col">
         <div class="H66 bg0 bgZoom" onclick="location.href='https:\/\/mektep.kz'">
