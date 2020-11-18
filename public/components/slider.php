@@ -5,7 +5,7 @@
         height: 105vh;
         top: 100px;
         left: 0;
-        padding-top: 60vh;
+        padding-top: 55vh;
         background-image: url('public/img/photo/sliderOne.jpg');
         background-size: contain;
         background-repeat: no-repeat;
@@ -30,7 +30,10 @@
         text-align: right;
         padding: 10px;
         padding-right: 100px;
-        background: rgba(255, 255, 255, 0.2); 
+        margin-left: 30%;
+        background: rgba(255, 255, 255, 0.3);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 </style>
 <div class="slider">

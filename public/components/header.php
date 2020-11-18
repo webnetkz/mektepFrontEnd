@@ -40,7 +40,7 @@
         color: rgb(63, 205, 233);
     }
 
-    .searchInp {
+    .searchInpHeader {
         outline: none;
         border: none;
         font-size: 1rem;
@@ -49,13 +49,13 @@
         color: rgb(255, 255, 255);
         padding-left: 5px;
     }
-    .searchInp:focus {
+    .searchInpHeader:focus {
         color: rgba(134, 211, 65, 1);
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
         padding: 4px;
     }
-    .searchInp:focus .searchIcon {
+    .searchInpHeader:focus .searchIcon {
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
         padding: 4px;
@@ -132,7 +132,7 @@
         <div class="headFirstMenu flex centerAI beetwenJC">
             <div class="search flex">
                 <img src="public/img/icons/searchGreen.png" alt="search" class="searchIcon">
-                <input type="text" class="searchInp" placeholder="Поиск по сайту">
+                <input type="text" class="searchInpHeader" placeholder="Поиск по сайту">
             </div>
             <div class="phone">
                 <a href="tel:+77273944234" class="phoneLink">+7 (727) 394 42 34</a>
@@ -150,7 +150,7 @@
             <div class="secondMenu">
                 <menu class="second">
                     <a href="#" class="secondMenuItem">Интернет-магазин</a>
-                    <a href="#" class="secondMenuItem">Цифровые учебники</a>
+                    <a href="library.php" class="secondMenuItem">Цифровые учебники</a>
                     <a href="#" class="secondMenuItem">Вебинары</a>
                     <a href="#" class="secondMenuItem">Новости</a>
                 </menu>

@@ -10,5 +10,6 @@ html, body {
  font-family: 'Roboto Slab', serif;
  background-color: rgb(255, 255, 255);
  scroll-behavior: smooth;
+ height: 100%;
  overflow-x: hidden;
 }
